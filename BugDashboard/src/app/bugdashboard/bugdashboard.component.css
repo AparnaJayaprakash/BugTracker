@@ -1,0 +1,156 @@
+
+
+.dashboard-container {
+    display: flex;
+    margin: 0;
+  }
+
+
+.sidebar {
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  
+  .sidebar ul li.active a {
+    background-color: #4CAF50;
+  }
+  
+  .sidebar ul li.active a:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  } */
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-bug-btn {
+    margin-left: 860px;
+    padding: 10px 20px;
+    background-color:#45a049;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-bug-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-bug-btn:focus {
+    outline: none;
+  }
+  
+  
+  
+  .bug-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bug-list table th,
+  .bug-list table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bug-list table th {
+    background-color: #f1f1f1;
+  }
+  
+  .bug-details .details-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .bug-details h2 {
+    margin-top: 0;
+  }
+  
+  .bug-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bug-details p {
+    margin-bottom: 10px;
+  }
+  
+  .bug-details .bug-description {
+    font-style: italic;
+    color: #666;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 10px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
